@@ -69,8 +69,8 @@ document.getElementById('play').onclick = function() {
 	setTimeout(function() {
 		var music = document.getElementById("beep");
 		music.play();
-		music.volume = 0.25;
-	}, 5000);
+		music.volume = 0.3;
+	}, 10000);
  }
  
 function myFunction1() {
