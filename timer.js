@@ -67,6 +67,7 @@ document.getElementById('play').onclick = function() {
 	document.getElementById("singsong").volume = 1;
 	
 	var music = document.getElementById("beep");
+	music.play();
 	music.volume = 0.05;
  }
  
