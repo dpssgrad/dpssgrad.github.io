@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Javascript Countdown Clock</title>
+
+	<link rel="stylesheet" type="text/css" href="timer.css">
+</head>
+	
+<body>
+	<audio src="cool music.mp3" id="singsong" loop></audio>
+	<div class="display">
+		<div id="play">
+			<button id="plsclick"><svg xmlns="http://www.w3.org/2000/svg" height="25vw" width="25vw" viewBox="0 0 384 512"><path fill="#ffd700C4" d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></button>
+		</div>
+
+		<div id="clock" class="clock">
+			<h1 class="event_title">Event Starts in</h1>
+			<div id="numbers">
+				<span class="days glow"></span>
+				<span class="hours glow"></span>
+				<span class="minutes glow"></span>
+				<span class="seconds glow"></span>
+			</div>
+			<div id="units">
+				<span>Days</span>
+				<span>Hours</span>
+				<span>Minutes</span>
+				<span>Seconds</span>
+			</div>
+			<ul id="riddles">
+				<li class="arnavshah" onclick="myFunction1()">One
+					<span class="popuptext" id="myPopup1">Among crayons and naptime dreams,<br>
+Where tiny voices formed their teams<br>
+In numbers and colors, the secret dwells,<br>
+Within the place where a story tells<br>
+Look for the clue that hides the past,<br>
+In a place where friendships first were cast.</span>
+				</li>
+				<li class="arnavshah" onclick="myFunction2()">Two
+					<span class="popuptext" id="myPopup2">Seek the memories where roles were defined,<br>
+In a cafe with numbers,' connections entwined.<br>
+Tables turned as little minds took charge,<br>
+Cashiers, managers, a roleplay barrage.<br>
+Count the bills, recall the roles they'd take,<br>
+Where multiplication and addition would awake</span>
+				</li>
+				<li class="arnavshah" onclick="myFunction3()">Three
+					<span class="popuptext" id="myPopup3">In the echoes of lyrics, in the dance so free,<br>
+Find the answer where messages flew with glee<br>
+Search for the memory where themes were spun,<br>
+In 'WE CARE WE DARE,' the show begun</span>
+				</li>
+				<li class="arnavshah" onclick="myFunction4()">Four
+					<span class="popuptext" id="myPopup4">
+A soothing bus ride, memories cascade.<br>
+Singing soft songs, in the bus they confide,<br>
+Under the sunset, on the tranquil ride.<br>
+Flashlights in harmony, a magical scene,<br>
+The dusk's canvas, where clues convene.</span>
+				</li>
+				<!-- <li><button class="arnavshah">one</button></li>
+				<li><button class="arnavshah">two</button></li>
+				<li><button class="arnavshah">three</button></li> -->
+			</ul>
+			
+		</div>
+		
+	</div>
+	<script src="timer.js"></script>
+</body>
+</html>
