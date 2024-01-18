@@ -65,10 +65,12 @@ document.getElementById('play').onclick = function() {
 	document.getElementById("play").classList.add("hide")
 	document.getElementById("singsong").play();
 	document.getElementById("singsong").volume = 1;
-	
-	var music = document.getElementById("beep");
-	music.play();
-	music.volume = 0.15;
+
+	setTimeout(function() {
+		var music = document.getElementById("beep");
+		music.play();
+		music.volume = 0.25;
+	}, 5000);
  }
  
 function myFunction1() {
