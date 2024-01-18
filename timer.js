@@ -64,7 +64,7 @@ document.getElementById('play').onclick = function() {
 	document.getElementById("clock").classList.remove("hide")
 	document.getElementById("play").classList.add("hide")
 	document.getElementById("singsong").play();
-	document.getElementById("singsong").volume = 0.5;
+	document.getElementById("singsong").volume = 1;
  }
  
 function myFunction1() {
